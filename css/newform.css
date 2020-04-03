@@ -1,0 +1,78 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            width: 100%;
+            height: 100vh;
+            background-image: url(../bannertop.jpg);
+        }
+        
+        .menu {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: teal;
+            text-transform: uppercase;
+            padding-left: 650px;
+        }
+        
+        .menu a {
+            text-decoration: none;
+            color: rgb(39, 32, 32);
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        
+        .centerdiv {
+            width: 350px;
+            height: 400px;
+            position: absolute;
+            top: 60%;
+            left: 80%;
+            background-color: rgb(76, 143, 128);
+            transform: translate(-50%, -50%);
+        }
+        
+        #profile {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: relative;
+            text-transform: uppercase;
+            top: -60px;
+            left: calc( (350px - 120px) /2);
+        }
+        
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            color: honeydew;
+            font-size: 2em;
+            word-spacing: 10px;
+            margin-top: -10%;
+            margin-bottom: 20%;
+        }
+        
+        .inputbox {
+            width: calc(100% - 40px);
+            height: 40px;
+            display: block;
+            margin: auto;
+            text-transform: uppercase;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            width: calc(100% - 40px);
+            height: 40px;
+            display: block;
+            color: white;
+            background-color: rgb(60, 53, 88);
+            margin: auto;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
